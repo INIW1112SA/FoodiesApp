@@ -1,74 +1,73 @@
-const should = require('chai').should(),
-assert = require ('chai').assert,
-supertest = require('supertest'),
-app = require('../bin/www');
+const should = require("chai").should(),
+assert = require ("chai").assert,
+supertest = require("supertest"),
+app = require("../bin/www");
 
-var url = supertest('http://localhost:8080');
+var url = supertest("http://localhost:8080/restaurants");
 
-describe('Testing POST route to add', function(err){
- it('should handle and send the computed info', function(done){
+describe("Testing POST route ", function(err){
+ it("should handle and send the computed info", function(done){
    url
-       .post('/Restaurants/add')
-       .send({ 'name':'keerthi', 'id':555 })
+       .post("/add")
+       .send({ "restaurant_name":"alpha" ,"id" :"123" })
        .expect(200)
        .end(function(err,res){
          should.not.exist(err);
-         res.text.should.equal('Hello keerthi your id is 555','Values do not match');
+         (res.text).should.equal("hai","Expected value not matching with response");
          done();
        });
 
+ });
+ it("should handle and send the computed info", function(done){
+   url
+       .post("/add/id")
+       .send({ "restaurant_name":"alpha" ,"restaurant_id" :"123" })
+       .expect(200)
+       .end(function(err,res){
+         should.not.exist(err);
+         (res.text).should.equal("alpha","restaurant_name should not contain numbers");
+         done();
+       });
  });
 });
-describe('Testing DELETE route to delete', function(err){
- it('should handle and send the computed info', function(done){
+describe("Testing Delete route ", function(err){
+ it("should handle and send the computed info", function(done){
    url
-       .delete('/Restaurants/delete')
-       .send({ 'name':'keerthi', 'id':555 })
+       .delete("/delete")
+       .send({ "restaurant_id" :"123" })
        .expect(200)
        .end(function(err,res){
          should.not.exist(err);
-         res.text.should.equal('keerthi is deleted');
+         (res.text).should.equal("deleted","id does not exit ");
          done();
        });
-
  });
-});
-describe('Testing PUT route to update', function(err){
- it('should handle and send the computed info', function(done){
-   url
-       .put('/Restaurants/update')
-       .send({ 'name':'keerthi', 'id':555, 'comment':'Yummy!' })
-       .expect(200)
-       .end(function(err,res){
-         should.not.exist(err);
-         res.text.should.equal('Yummy!');
-         done();
-       });
-
  });
-  it('should handle and send the computed info', function(done){
-   url
-       .put('/Restaurants/update')
-       .send({ 'name':'keerthi', 'id':555, 'comment':''})
-       .expect(200)
-       .end(function(err,res){
-         should.not.exist(err);
-         res.text.should.equal('Enter Comments');
-         done();
-       });
+ describe("Testing put route ", function(err){
+  it("should handle and send the computed info", function(done){
+    url
+        .put("/update")
+        .send({ "restaurant_comments" :"food is good" })
+        .expect(200)
+        .end(function(err,res){
+          should.not.exist(err);
+          (res.text).should.equal("food is good","enter comments ");
+          done();
+        });
 
- });
-});
-describe('Testing get route', function(err){
- it('should handle and send the computed info', function(done){
-   url
-       .get('/Restaurants/')
-       .expect(200)
-       .end(function(err,res){
-         should.not.exist(err);
-         res.text.should.equal('response from user GET route check');
-         done();
-       });
+  });
+  });
+  describe("Testing get route ", function(err){
+   it("should handle and send the computed info", function(done){
+     url
+         .get("/fetch")
+         .send("")
+         .expect(200)
+         .end(function(err,res){
+           should.not.exist(err);
+           (res.text).should.equal("fetch successful","invalid input ");
+           done();
+         });
 
- });
-});
+   });
+   });
