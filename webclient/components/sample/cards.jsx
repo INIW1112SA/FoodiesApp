@@ -18,10 +18,32 @@ class Cards extends React.Component {
     constructor() {
         super();
     }
+    addRestaurant(){
+     $.ajax({
+         url: '/restaurants/add' ,
+         type: 'POST',
+         data:{
+           "name":this.props.name,
+           "address":this.props.address,
+           "cuisines":this.props.cuisines,
+           "ratings":this.props.ratings,
+           "image":this.props.image
+         },
+         success: function(data) {
+           console.log(data);
+             console.log('Success');
+         }.bind(this),
+         error: function(err) {
+             console.log('error');
+             console.log(err);
+         }.bind(this)
+     });
+   }
     render() {
+      var addRestaurant = this.addRestaurant.bind(this);
         return (
             <Card>
-                <Image style={imgStyle} src={this.props.img}/>
+                <Image style={imgStyle} src={this.props.image}/>
                 <Card.Content>
                     <Card.Header>
                         {this.props.name}
@@ -43,7 +65,7 @@ class Cards extends React.Component {
                         <span style={inputStyle}>{this.props.ratings}/5</span>
                     </a>
                 </Card.Content>
-                <Button onClick={this.onClick} size='large' primary>Add To Favourities</Button>
+               <Button onClick = {addRestaurant} >ADD</Button>
             </Card>
         );
     }
