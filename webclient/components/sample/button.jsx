@@ -1,17 +1,15 @@
 import React from 'react';
-import {Button} from 'semantic-ui-react'
-class ButtonComponent extends React.component{
-  constructor()
-  {
+import { Button, Icon } from 'semantic-ui-react';
+
+class ButtonComponent extends React.Component{
+  constructor(){
     super();
   }
-  render()
-  {
-    return
-    (
-    >
+  render(){
+    return(
+      <Button floated='right' onClick={this.props.click} size={this.props.size} color={this.props.color} ><Icon name={this.props.name}></Icon>{this.props.button}</Button>
     );
-
   }
 }
-export default ButtonComponent;
+
+module.exports = ButtonComponent;

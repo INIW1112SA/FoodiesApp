@@ -1,24 +1,37 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-class MainComponent extends React.Component {
+import {Button, Input} from 'semantic-ui-react';
+class SearchComponent extends React.Component {
     constructor() {
         super();
+        this.state = {cityName : ''};
+        this .state = {cuisine : ''};
+        this.handleChange = this.handleChange.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
     }
-
-    triggerSearch() {
-        {this.props.search(document.getElementById('city').value, document.getElementById('cuisine').value)}
+    handleChange(event){
+const value = event.target.value;
+const name = event.target.name;
+this.setState({[name]:value});
     }
+    handleSubmit() {
+  this.props.search(this.state.cityName, this.state.cuisine)
+  }
 
-    render() {
-        return (
-            <div>
-                <input type="text" id="city" placeholder="Enter city"/>
-                <input type="text" id="cuisine" placeholder="Enter cuisines"/>
-                <button onClick={this.triggerSearch.bind(this)}>Search</button>
-            </div>
-        );
+    render(){
+      var inputStyle ={
+        marginRight :'10px'
+      }
+      return(
+        <div>
+        <label>CITY</label>
+        <input style ={inputStyle} type = 'text' value = {this.state.cityName} name = 'cityName' onChange = {this.handleChange} placeholder = 'enter city name' autoFocus/>
+        <label>CUISINES</label>
+        <input style= {inputStyle} type = 'text' value = {this.state.cuisine} name = 'cuisine' onChange = {this.handleChange} placeholder = 'enter cuisine'/>
+        <Button  style = {inputStyle} size = 'large' color = 'teal' onClick = {this.handleSubmit.bind(this)}>SEARCH </Button>
+      </div>
+      )
     }
-}
+  }
 
-export default MainComponent;
+    export default SearchComponent;

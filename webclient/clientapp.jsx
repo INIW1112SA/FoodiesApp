@@ -1,11 +1,11 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 var {browserHistory, Route, Router, IndexRoute} = require('react-router');
-var GmailBox = require('./components/GmailBox');
+
 var NavBar = require('./components/NavBar');
-var About = require('./components/About');
+
 var Home = require('./components/clientapp.jsx');
-var favourites = require('./components/sample/favourites.jsx');
+var Favourites = require('./components/sample/favourites.jsx');
 
 var MainComp = React.createClass({
   render:function(){
@@ -22,9 +22,8 @@ ReactDOM.render(
   <Router history={browserHistory}>
                 <Route path="/" component={MainComp}>
                 <IndexRoute component={Home}/>
-                <Route path="/about" component={About}/>
-                <Route path="/gmailbox" component={GmailBox}/>
-                <Route path="/favourites" component={favourites}/>
+               
+                <Route path="/favourites" component={Favourites}/>
 
 
               </Route>

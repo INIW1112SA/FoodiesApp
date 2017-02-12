@@ -1,10 +1,14 @@
-const mongoose = require('mongoose');
+var mongoose = require('mongoose');
+mongoose.Promise = global.Promise;
+var schema = new mongoose.Schema({
+	restaurantId : Number,
+	name : String,
+	address : String,
+	image : String,
+	ratings : Number,
+	cuisines : String,
+	comments : String
+})
 
-const schema = new mongoose.Schema({
-	restaurantName: String,
-	location:String
-});
-const model = mongoose.model('User', schema);
-module.exports = {
-	userModel: model
-};
+var Restaurant = mongoose.model('restaurant' , schema);
+module.exports = Restaurant;

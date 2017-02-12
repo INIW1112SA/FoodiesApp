@@ -9,15 +9,15 @@ class Favourites extends React.Component{
   }
   componentWillMount(){
     $.ajax({
-       url:'/restaurants/view',
+       url:'/restaurants/',
        type:'GET',
       success: function(data){
-        console.log('Successfully got JSON' + data);
-        this.setState({json:data.restaurant});
+       // console.log('Successfully got json' + data);
+        this.setState({json:data});
       }.bind(this),
       error: function(err){
-        console.log('error occurred on AJAX');
-        console.log(err);
+        //console.log('error occurred on AJAX');
+       // console.log(err);
       }.bind(this)
      });
   }

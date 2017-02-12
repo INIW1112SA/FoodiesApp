@@ -14,13 +14,16 @@ class DisplayFavComponent  extends React.Component{
     };
     var fav = this.props.fav;
     var JsonArray = this.props.json.map(function(item){
-      if(fav == 'favourites'){
+      if(fav == 'favourites')
         return <CardsComponent name={item.name}
+           id ={item._id}
            image={item.image}
            address={item.address}
            cuisines={item.cuisines}
-           ratings={item.ratings} fav='favourites'/>
-      }
+           ratings={item.ratings} 
+           comments = {item.comments}
+           fav = 'favourites'/>
+      
 
     });
     return (

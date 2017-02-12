@@ -17,7 +17,7 @@ function setupStaticRoutes(app) {
 }
 
 function setupRestRoutes(app) {
-  console.log('Inside service setupRestRoutes');
+  logger.debug('Inside service setupRestRoutes');
   app.use('/users', require(path.join(__dirname, './users')));
   app.use('/restaurants', require(path.join(__dirname, './restaurants')));
   //  MOUNT YOUR REST ROUTE HERE

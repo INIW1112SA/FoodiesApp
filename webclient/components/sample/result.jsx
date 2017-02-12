@@ -8,16 +8,12 @@ class ResultComponent extends React.Component {
         super();
     }
 
-addResturarnt(){
-  this.props.addResturarnt();
-}
-
     render () {
         var divStyle = {
-margin: 70
-};
+       margin: 70
+       };
 
-        let list = '';
+        
 let rst = this.props.sr.map(function(item) {
         return (
           <div>
@@ -26,7 +22,9 @@ let rst = this.props.sr.map(function(item) {
                                         name = {item.restaurant.name}
                                          address = {item.restaurant.location.address}
                                  cuisines = {item.restaurant.cuisines}
-                                ratings = {item.restaurant.user_rating.aggregate_rating}/>
+                                ratings = {item.restaurant.user_rating.aggregate_rating}
+                                search = 'search'
+                                />
                               </div>
                             );
 });
