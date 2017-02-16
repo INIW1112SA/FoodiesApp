@@ -1,0 +1,161 @@
+[13 02 2017 03:46:07.436] [DEBUG] - Inside service setupRestRoutes
+[13 02 2017 03:46:07.536] [DEBUG] - Inside service setupRestRoutes
+[13 02 2017 03:46:07.630] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[13 02 2017 03:59:16.196] [DEBUG] - Mongoose is now disconnected..!
+[13 02 2017 03:59:39.227] [DEBUG] - Inside service setupRestRoutes
+[13 02 2017 03:59:39.306] [DEBUG] - Inside service setupRestRoutes
+[13 02 2017 03:59:39.417] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[13 02 2017 04:01:34.198] [DEBUG] - Mongoose is now disconnected..!
+[13 02 2017 04:04:37.238] [DEBUG] - Inside service setupRestRoutes
+[13 02 2017 04:04:37.317] [DEBUG] - Inside service setupRestRoutes
+[13 02 2017 04:04:37.422] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[13 02 2017 04:21:34.612] [DEBUG] - Mongoose is now disconnected..!
+[13 02 2017 04:21:43.712] [DEBUG] - Inside service setupRestRoutes
+[13 02 2017 04:21:43.777] [DEBUG] - Inside service setupRestRoutes
+[13 02 2017 04:21:43.854] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[13 02 2017 04:45:07.092] [DEBUG] - Inside restaurant add post
+[13 02 2017 04:45:10.934] [DEBUG] - Inside get
+[13 02 2017 04:46:11.768] [DEBUG] - Inside restaurant add post
+[13 02 2017 04:46:15.977] [DEBUG] - Inside get
+[13 02 2017 04:46:27.482] [DEBUG] - Inside restaurant update post
+[13 02 2017 04:46:27.628] [DEBUG] - Inside restaurant update post
+[13 02 2017 04:46:30.248] [DEBUG] - Inside restaurant delete post
+[13 02 2017 04:46:32.784] [DEBUG] - Inside restaurant delete post
+[13 02 2017 04:47:16.584] [DEBUG] - Inside service setupRestRoutes
+[13 02 2017 04:47:16.654] [DEBUG] - Inside service setupRestRoutes
+[13 02 2017 04:47:16.717] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[13 02 2017 04:50:15.420] [DEBUG] - Mongoose is now disconnected..!
+[13 02 2017 04:50:24.937] [DEBUG] - Inside service setupRestRoutes
+[13 02 2017 04:50:24.998] [DEBUG] - Inside service setupRestRoutes
+[13 02 2017 04:50:25.079] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[13 02 2017 04:52:07.688] [DEBUG] - Mongoose is now disconnected..!
+[13 02 2017 04:52:17.077] [DEBUG] - Inside service setupRestRoutes
+[13 02 2017 04:52:17.142] [DEBUG] - Inside service setupRestRoutes
+[13 02 2017 04:52:17.210] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[13 02 2017 04:58:30.147] [DEBUG] - Mongoose is now disconnected..!
+[13 02 2017 05:27:41.571] [DEBUG] - Inside service setupRestRoutes
+[13 02 2017 05:27:41.627] [DEBUG] - Inside service setupRestRoutes
+[13 02 2017 05:27:41.701] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[13 02 2017 05:28:56.613] [DEBUG] - Inside restaurant add post
+[13 02 2017 05:29:00.032] [DEBUG] - Inside get
+[13 02 2017 05:29:04.278] [DEBUG] - Inside restaurant delete post
+[13 02 2017 05:29:34.130] [DEBUG] - Inside get
+[13 02 2017 05:30:23.766] [DEBUG] - Inside get
+[13 02 2017 05:30:40.763] [DEBUG] - Inside restaurant delete post
+[13 02 2017 05:30:48.786] [DEBUG] - Inside get
+[13 02 2017 05:31:05.544] [DEBUG] - Inside restaurant delete post
+[13 02 2017 05:31:11.324] [DEBUG] - Inside get
+[13 02 2017 05:31:19.539] [DEBUG] - Inside restaurant delete post
+[13 02 2017 05:31:24.875] [DEBUG] - Inside get
+[13 02 2017 05:31:35.270] [DEBUG] - Inside get
+[13 02 2017 05:31:41.814] [DEBUG] - Inside get
+[13 02 2017 05:32:58.016] [DEBUG] - Mongoose is now disconnected..!
+[13 02 2017 05:33:08.909] [DEBUG] - Inside service setupRestRoutes
+[13 02 2017 05:33:08.968] [DEBUG] - Inside service setupRestRoutes
+[13 02 2017 05:33:09.045] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[13 02 2017 05:33:44.936] [DEBUG] - Inside get
+[13 02 2017 05:34:10.026] [DEBUG] - Mongoose is now disconnected..!
+[13 02 2017 05:58:27.891] [DEBUG] - Inside service setupRestRoutes
+[13 02 2017 05:58:27.951] [DEBUG] - Inside service setupRestRoutes
+[13 02 2017 05:58:28.024] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[13 02 2017 06:54:33.567] [DEBUG] - Mongoose is now disconnected..!
+[13 02 2017 06:54:43.437] [DEBUG] - Inside service setupRestRoutes
+[13 02 2017 06:54:43.496] [DEBUG] - Inside service setupRestRoutes
+[13 02 2017 06:54:43.573] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[13 02 2017 06:55:09.528] [DEBUG] - Inside get
+[13 02 2017 06:55:11.964] [DEBUG] - Inside restaurant delete post
+[13 02 2017 06:58:31.235] [DEBUG] - Inside get
+[13 02 2017 06:58:52.980] [DEBUG] - Inside restaurant add post
+[13 02 2017 06:58:54.131] [DEBUG] - Inside restaurant add post
+[13 02 2017 06:58:55.297] [DEBUG] - Inside restaurant add post
+[13 02 2017 06:58:58.971] [DEBUG] - Inside restaurant add post
+[13 02 2017 06:59:01.234] [DEBUG] - Inside get
+[13 02 2017 07:00:30.989] [DEBUG] - Mongoose is now disconnected..!
+[13 02 2017 07:00:39.378] [DEBUG] - Inside service setupRestRoutes
+[13 02 2017 07:00:39.437] [DEBUG] - Inside service setupRestRoutes
+[13 02 2017 07:00:39.523] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[13 02 2017 07:00:52.104] [DEBUG] - Inside restaurant delete post
+[13 02 2017 07:00:55.117] [DEBUG] - Inside restaurant delete post
+[13 02 2017 07:01:07.849] [DEBUG] - Inside get
+[13 02 2017 07:01:10.235] [DEBUG] - Inside restaurant delete post
+[13 02 2017 07:01:11.902] [DEBUG] - Inside restaurant delete post
+[13 02 2017 07:01:45.346] [DEBUG] - Inside restaurant delete post
+[13 02 2017 07:01:45.497] [DEBUG] - Inside restaurant delete post
+[13 02 2017 07:01:51.877] [DEBUG] - Inside get
+[13 02 2017 07:04:18.641] [DEBUG] - Inside restaurant add post
+[13 02 2017 07:04:21.627] [DEBUG] - Inside restaurant add post
+[13 02 2017 07:04:24.087] [DEBUG] - Inside restaurant add post
+[13 02 2017 07:04:25.647] [DEBUG] - Inside restaurant add post
+[13 02 2017 07:04:28.644] [DEBUG] - Inside restaurant add post
+[13 02 2017 07:04:30.454] [DEBUG] - Inside restaurant add post
+[13 02 2017 07:04:32.603] [DEBUG] - Inside get
+[13 02 2017 07:04:36.583] [DEBUG] - Inside restaurant delete post
+[13 02 2017 07:04:41.056] [DEBUG] - Inside restaurant delete post
+[13 02 2017 07:13:32.442] [DEBUG] - Inside restaurant delete post
+[13 02 2017 07:13:34.386] [DEBUG] - Inside restaurant delete post
+[13 02 2017 07:13:34.865] [DEBUG] - Inside restaurant delete post
+[13 02 2017 07:13:35.259] [DEBUG] - Inside restaurant delete post
+[13 02 2017 07:13:35.609] [DEBUG] - Inside restaurant delete post
+[13 02 2017 07:13:35.786] [DEBUG] - Inside restaurant delete post
+[13 02 2017 07:13:35.931] [DEBUG] - Inside restaurant delete post
+[13 02 2017 07:13:39.007] [DEBUG] - Inside restaurant delete post
+[13 02 2017 07:14:20.822] [DEBUG] - Inside restaurant delete post
+[13 02 2017 07:18:11.154] [DEBUG] - Inside get
+[13 02 2017 07:20:21.545] [DEBUG] - Inside get
+[13 02 2017 07:20:26.951] [DEBUG] - Inside restaurant delete post
+[13 02 2017 07:20:34.078] [DEBUG] - Inside get
+[13 02 2017 07:21:12.884] [DEBUG] - Inside get
+[13 02 2017 07:21:15.804] [DEBUG] - Inside restaurant delete post
+[13 02 2017 07:21:58.279] [DEBUG] - Inside get
+[13 02 2017 07:22:00.183] [DEBUG] - Inside restaurant delete post
+[13 02 2017 07:22:30.356] [DEBUG] - Inside restaurant add post
+[13 02 2017 07:22:31.389] [DEBUG] - Inside restaurant add post
+[13 02 2017 07:22:34.050] [DEBUG] - Inside get
+[13 02 2017 07:22:43.642] [DEBUG] - Inside restaurant update post
+[13 02 2017 07:22:46.588] [DEBUG] - Inside restaurant delete post
+[13 02 2017 07:29:38.327] [DEBUG] - Inside restaurant add post
+[13 02 2017 07:29:39.408] [DEBUG] - Inside restaurant add post
+[13 02 2017 07:29:41.910] [DEBUG] - Inside restaurant add post
+[13 02 2017 07:29:43.171] [DEBUG] - Inside restaurant add post
+[13 02 2017 07:29:45.772] [DEBUG] - Inside restaurant add post
+[13 02 2017 07:29:50.493] [DEBUG] - Inside restaurant add post
+[13 02 2017 07:29:53.646] [DEBUG] - Inside get
+[13 02 2017 07:30:39.207] [DEBUG] - Inside get
+[13 02 2017 07:30:52.110] [DEBUG] - Inside restaurant delete post
+[13 02 2017 07:52:29.620] [DEBUG] - Inside restaurant delete post
+[13 02 2017 07:52:40.554] [DEBUG] - Inside get
+[13 02 2017 07:52:47.217] [DEBUG] - Inside restaurant delete post
+[13 02 2017 07:52:49.534] [DEBUG] - Inside restaurant delete post
+[13 02 2017 07:53:41.381] [DEBUG] - Inside restaurant delete post
+[13 02 2017 07:53:43.322] [DEBUG] - Inside restaurant delete post
+[13 02 2017 07:53:48.471] [DEBUG] - Inside restaurant delete post
+[13 02 2017 07:53:50.438] [DEBUG] - Inside restaurant delete post
+[13 02 2017 07:54:07.640] [DEBUG] - Inside get
+[13 02 2017 09:01:49.642] [DEBUG] - Inside get
+[13 02 2017 09:03:48.006] [DEBUG] - Inside restaurant update post
+[13 02 2017 09:03:48.106] [DEBUG] - Inside restaurant update post
+[13 02 2017 09:03:52.166] [DEBUG] - Inside restaurant update post
+[13 02 2017 09:03:53.324] [DEBUG] - Inside restaurant update post
+[13 02 2017 09:04:16.588] [DEBUG] - Inside restaurant update post
+[13 02 2017 09:19:14.245] [DEBUG] - Mongoose is now disconnected..!
+[13 02 2017 12:25:27.273] [DEBUG] - Inside service setupRestRoutes
+[13 02 2017 12:25:27.305] [DEBUG] - Inside service setupRestRoutes
+[13 02 2017 12:25:27.376] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[13 02 2017 12:26:42.749] [DEBUG] - Mongoose is now disconnected..!
+[13 02 2017 12:26:56.442] [DEBUG] - Inside service setupRestRoutes
+[13 02 2017 12:26:56.474] [DEBUG] - Inside service setupRestRoutes
+[13 02 2017 12:26:56.565] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[13 02 2017 12:29:02.352] [DEBUG] - Mongoose is now disconnected..!
+[13 02 2017 12:29:16.096] [DEBUG] - Inside service setupRestRoutes
+[13 02 2017 12:29:16.135] [DEBUG] - Inside service setupRestRoutes
+[13 02 2017 12:29:16.236] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[13 02 2017 12:44:05.379] [DEBUG] - inside the add post
+[13 02 2017 12:52:19.174] [DEBUG] - Inside service setupRestRoutes
+[13 02 2017 12:52:19.232] [DEBUG] - Inside service setupRestRoutes
+[13 02 2017 12:52:19.326] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[13 02 2017 16:48:03.359] [DEBUG] - Inside service setupRestRoutes
+[13 02 2017 16:48:03.415] [DEBUG] - Inside service setupRestRoutes
+[13 02 2017 16:48:03.504] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[13 02 2017 16:56:34.140] [DEBUG] - Inside get
+[13 02 2017 16:57:09.828] [DEBUG] - Inside get
+[13 02 2017 16:57:20.334] [DEBUG] - Inside restaurant update post

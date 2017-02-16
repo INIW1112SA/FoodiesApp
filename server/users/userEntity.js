@@ -1,10 +1,9 @@
 const mongoose = require('mongoose');
-mongoose.Promise = global.Promise;
-var scheme = new mongoose.Schema({
-  userName:String,
+const schema = new mongoose.Schema({
+  username: String,
   password: String
 });
-var user = mongoose.model('user',scheme );
+const model = mongoose.model('User', schema);
 module.exports = {
-	userModel: user
+    userModel: model
 };

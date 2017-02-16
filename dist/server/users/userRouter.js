@@ -1,55 +1,81 @@
 'use strict';
 const logger = require('./../../applogger');
 const router = require('express').Router();
+const passport = require('passport');
+const Strategy = require('passport-local').Strategy;
 const userModel = require('./userEntity').userModel;
+const connectFlash = require('connect-flash');
 
-router.post('/add', function(req,res){
-  logger.debug("inside the add post");
-  let user = new userModel({
-    "userName":req.body.userName,
-    "password":req.body.password
-  })
-  user.save().then((doc)=>{
-    console.log(doc);
-    res.send('user data inserted');
-  },(err)=>{
-    console.log(err);
-    res.send('error');
-
-});
-});
-
+router.post('/add', function(req, res) {
+    logger.debug('Received request' + JSON.stringify(req.body));
+    if (req.body) {
+        let user = new userModel(req.body);
+        user.save(function(err) {
+            if (err) {
+                res.send(err);
+            } else {
+                res.json({message: 'User saved successfully'});
+            }
+        });
+    }
+})
+router.delete('/delete/:id', function(req, res) {
+    logger.debug('Received request' + JSON.stringify(req.body));
+    if (req.params.id) {
+        let id = req.params.id;
+        userModel.findByIdAndRemove(id, function(err) {
+            if (err) {
+                res.send(err);
+            } else {
+                res.json({message: 'User deleted successfully'});
+            }
+        });
+    }
+})
+router.patch('/update/:id', function(req, res) {
+    logger.debug('Received request' + JSON.stringify(req.body));
+    if (req.params.id) {
+        let id = req.params.id;
+        userModel.findByIdAndUpdate(id, {
+            $set: {
+                username: req.body.username
+            }
+        }, {
+            new: true
+        }, function(err) {
+            if (err) {
+                res.send(err);
+            } else {
+                res.json({message: 'User updated successfully'});
+            }
+        });
+    }
+})
 // Get details of all users in the system
 router.get('/', function(req, res) {
-  userModel.find().then((doc)=>{
-    console.log(doc);
-    res.send(doc);
-  },(err)=>{
-    console.log(err);
-    res.send('error');
+    userModel.find({}, function(allusers, err) {
+        if (err) {
+            res.send(err);
+        } else {
+            res.json(allusers);
+        }
+    });
+})
+router.post('/login',
+ passport.authenticate('local', {
+ failureFlash: 'Invalid username and Password',
+ successFlash: "Welcome to Movie App"}
+),
+function(req, res) {
+  console.log('aaa');
+   res.json({responseText:'authenticated'});
+}
+);
 
-  });
-});
-
-router.delete('/delete/:id', function(req,res){
-  logger.debug("inside the add post");
-   let id = req.params.id;
-  userModel.findByIdAndRemove(id).then((doc)=>{
-    res.send('user of id is deleted');
-  },(err)=>{
-    console.log(err);
-    res.send('error');
-
-});
-});
-router.patch('/update', function(req,res){
-
-  userModel.findOneAndUpdate({ userName: 'aswini' }, { password: '123asw' }).then((doc)=>{
-    res.send('user details updated');},(err)=>{
-      consile.log(err);
-      res.send('error');
-
-  })
+router.get('/logout', function(req, res){
+console.log('Session deleted');
+req.session.destroy();
+res.send({redirect: '/'});
 });
 
 module.exports = router;

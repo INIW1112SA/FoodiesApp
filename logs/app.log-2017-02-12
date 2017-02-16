@@ -1,0 +1,62 @@
+[12 02 2017 09:45:21.331] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[12 02 2017 09:55:41.781] [DEBUG] - Mongoose is now disconnected..!
+[12 02 2017 11:43:50.307] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[12 02 2017 11:45:24.576] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[12 02 2017 12:08:30.022] [DEBUG] - Mongoose is now disconnected..!
+[12 02 2017 12:08:45.423] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[12 02 2017 12:10:22.072] [DEBUG] - Mongoose is now disconnected..!
+[12 02 2017 12:11:45.609] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[12 02 2017 12:23:50.202] [DEBUG] - Mongoose is now disconnected..!
+[12 02 2017 12:23:59.691] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[12 02 2017 12:42:56.840] [DEBUG] - Mongoose is now disconnected..!
+[12 02 2017 12:43:11.798] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[12 02 2017 12:48:40.774] [DEBUG] - Mongoose is now disconnected..!
+[12 02 2017 12:48:49.289] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[12 02 2017 14:01:48.159] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[12 02 2017 14:02:02.421] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[12 02 2017 14:05:07.196] [DEBUG] - Mongoose is now disconnected..!
+[12 02 2017 14:15:01.823] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[12 02 2017 14:26:35.969] [DEBUG] - Mongoose is now disconnected..!
+[12 02 2017 16:39:13.495] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[12 02 2017 16:48:33.447] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[12 02 2017 16:50:09.367] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[12 02 2017 16:51:21.869] [DEBUG] - Inside service setupRestRoutes
+[12 02 2017 16:51:21.937] [DEBUG] - Inside service setupRestRoutes
+[12 02 2017 16:51:21.991] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[12 02 2017 16:58:07.016] [DEBUG] - Mongoose is now disconnected..!
+[12 02 2017 16:58:19.291] [DEBUG] - Inside service setupRestRoutes
+[12 02 2017 16:58:19.352] [DEBUG] - Inside service setupRestRoutes
+[12 02 2017 16:58:19.421] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[12 02 2017 16:59:50.004] [DEBUG] - Inside restaurant add post
+[12 02 2017 16:59:50.077] [DEBUG] - Inside restaurant add post
+[12 02 2017 16:59:55.835] [DEBUG] - Inside restaurant add post
+[12 02 2017 17:00:00.991] [DEBUG] - Inside get
+[12 02 2017 17:00:09.453] [DEBUG] - Inside restaurant update post
+[12 02 2017 17:00:18.699] [DEBUG] - Inside restaurant update post
+[12 02 2017 17:00:21.612] [DEBUG] - Inside restaurant update post
+[12 02 2017 17:00:27.807] [DEBUG] - Inside restaurant update post
+[12 02 2017 17:00:32.998] [DEBUG] - Inside get
+[12 02 2017 17:02:45.964] [DEBUG] - Mongoose is now disconnected..!
+[12 02 2017 17:16:56.163] [DEBUG] - Inside service setupRestRoutes
+[12 02 2017 17:16:56.242] [DEBUG] - Inside service setupRestRoutes
+[12 02 2017 17:16:56.331] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[12 02 2017 17:20:31.405] [DEBUG] - Mongoose is now disconnected..!
+[12 02 2017 17:59:08.514] [DEBUG] - Inside service setupRestRoutes
+[12 02 2017 17:59:08.592] [DEBUG] - Inside service setupRestRoutes
+[12 02 2017 17:59:08.695] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[12 02 2017 18:06:15.223] [DEBUG] - Inside service setupRestRoutes
+[12 02 2017 18:06:15.304] [DEBUG] - Inside service setupRestRoutes
+[12 02 2017 18:06:15.396] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[12 02 2017 18:09:12.737] [DEBUG] - Inside service setupRestRoutes
+[12 02 2017 18:09:12.817] [DEBUG] - Inside service setupRestRoutes
+[12 02 2017 18:09:12.879] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[12 02 2017 18:10:12.786] [DEBUG] - Inside service setupRestRoutes
+[12 02 2017 18:10:12.864] [DEBUG] - Inside service setupRestRoutes
+[12 02 2017 18:10:12.959] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[12 02 2017 18:30:58.774] [DEBUG] - Inside service setupRestRoutes
+[12 02 2017 18:30:58.832] [DEBUG] - Inside service setupRestRoutes
+[12 02 2017 18:30:58.924] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[12 02 2017 18:32:43.051] [DEBUG] - Inside service setupRestRoutes
+[12 02 2017 18:32:43.134] [DEBUG] - Inside service setupRestRoutes
+[12 02 2017 18:32:43.232] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/trial
+[12 02 2017 18:36:10.560] [DEBUG] - Mongoose is now disconnected..!
